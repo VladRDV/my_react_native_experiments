@@ -69,13 +69,13 @@ const styles = StyleSheet.create({
 		paddingHorizontal: 24
 	},
 	sectionTitle: {
-		fontSize: RFValue(24),
+		fontSize: RFValue(24), // 5%
 		fontWeight: '600',
 		color: Colors.black
 	},
 	sectionDescription: {
 		marginTop: 8,
-		fontSize: RFPercentage(4),
+		fontSize: RFPercentage(4), // 18
 		fontWeight: '400',
 		color: Colors.dark
 	},
@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
 	},
 	footer: {
 		color: Colors.dark,
-		fontSize: RFPercentage(3),
+		fontSize: RFPercentage(3), // 12
 		fontWeight: '600',
 		padding: 4,
 		paddingRight: 12,
