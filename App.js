@@ -37,6 +37,12 @@ const App = () => {
 						</Text>
 					</View>
 					<View style={styles.sectionContainer}>
+						<Text style={styles.sectionTitle2}>See Your Changes</Text>
+						<Text style={styles.sectionDescription}>
+							<ReloadInstructions />
+						</Text>
+					</View>
+					<View style={styles.sectionContainer}>
 						<Text style={styles.sectionTitle}>Debug</Text>
 						<Text style={styles.sectionDescription}>
 							<DebugInstructions />
@@ -70,6 +76,11 @@ const styles = StyleSheet.create({
 	},
 	sectionTitle: {
 		fontSize: RFValue(24), // 5%
+		fontWeight: '600',
+		color: Colors.black
+	},
+	sectionTitle2: {
+		fontSize: RFPercentage(5), // 5%
 		fontWeight: '600',
 		color: Colors.black
 	},
